@@ -8,7 +8,6 @@ def romanToInt(s: str) -> int:
     
    
     for i in range(len(s)):
-        # If the current value is less than the next one, subtract it
         if i + 1 < len(s) and roman_map[s[i]] < roman_map[s[i + 1]]:
             total -= roman_map[s[i]]
         else:
