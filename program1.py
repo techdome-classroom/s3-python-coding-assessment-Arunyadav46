@@ -11,8 +11,6 @@ def isValid(s: str) -> bool:
         if char in bracket_map:
             
             top_element = stack.pop() if stack else '#'
-            
-           
             if bracket_map[char] != top_element:
                 return False
         else:
