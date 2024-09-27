@@ -16,7 +16,7 @@ def isValid(s: str) -> bool:
             if bracket_map[char] != top_element:
                 return False
         else:
-            # If it's an opening bracket, push it onto the stack
+          
             stack.append(char)
     
     return not stack
