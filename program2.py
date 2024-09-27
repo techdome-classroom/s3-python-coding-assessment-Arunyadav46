@@ -6,7 +6,7 @@ def romanToInt(s: str) -> int:
    
     total = 0
     
-    # Traverse through the Roman numeral string
+   
     for i in range(len(s)):
         # If the current value is less than the next one, subtract it
         if i + 1 < len(s) and roman_map[s[i]] < roman_map[s[i + 1]]:
