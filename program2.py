@@ -25,14 +25,6 @@ class Solution(object):
     
     return total
 
-# Example usage:
-s1 = "III"
-s2 = "LVIII"
-s3 = "MCMXCIV"
-
-print(romanToInt(s1))  # Output: 3
-print(romanToInt(s2))  # Output: 58
-print(romanToInt(s3))  # Output: 1994
 
 
 
