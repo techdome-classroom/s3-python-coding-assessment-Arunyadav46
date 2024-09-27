@@ -19,7 +19,6 @@ def isValid(s: str) -> bool:
             # If it's an opening bracket, push it onto the stack
             stack.append(char)
     
-    # After traversing the string, the stack should be empty if the string is valid
     return not stack
 
 
