@@ -11,7 +11,7 @@ def romanToInt(s: str) -> int:
         if i + 1 < len(s) and roman_map[s[i]] < roman_map[s[i + 1]]:
             total -= roman_map[s[i]]
         else:
-            # Otherwise, add it to the total
+           
             total += roman_map[s[i]]
     
     return total
